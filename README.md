@@ -21,30 +21,30 @@ Ludo is a strategy board game that is played by four player, where players need 
 
 **Implementatio plan and coding element**
 * Generation of random game sets or events
-    - Generate random number (1-6) when user roll a dice using time.h in srand.
-    - Generate number of time (1-3second) for the loading and saving bar to move.
+    - Generate random number (1-6) when user roll a dice using time.h in `srand`.
+    - Generate number of time (1-3 seconds) for the loading and saving bar as animations.
 * Data structures `struct` used for storing game status
     - **Chess**
         - ID(the id of each chess)
         - Stage(The stage of chess: "BASE", "ROAD", "PEND", "LAST", "GOAL")
         - Pos(The position of the chess)
     - **Player**
-        - Icon (The chess appearance of the player)
-        - Vector<CHESS>chess(vector to store the four chesses)
-        - Map<string,int> counters (to count the number of chess pieces in specific stage)
+        - `Icon` (The chess symbol of the player)
+        - `Vector<CHESS>chess`(vector to store the four chesses)
+        - `Map<string,int>` counters (to count the number of chess pieces in specific stage)
 * Dynamic memory management
-    - Use of vector
+    - Use of `vector`
         - Using pushback, new, delete to change the array size.
-    - Use of map
+    - Use of `map`
         - Using as the counter
 * File input/output (e.g., for loading/saving game status)
     - There will be a default text file that store the stage, chess id, position number, so that everytime the player start a new game, the cheeses will be located in the initial position.
     - If the player choose to save and quit in the middle of the game, the player can name the file to output and store information like the stage, chess id, position and current player in the text file, so that if the player want to resume the previous game they can input the file and continue to play with the same player.
 * Program codes in multiple files
-    - Use a file define.h to store the header that our program needed.
-    - Use a file functions.cpp to store all the functions that could be called from the program.
-    - Use a file main.cpp to store the main program to be execute.
-    - Use a text default.txt to store the default information that the program need.
+    - Use a file `define.h` to store the header that our program needed.
+    - Use a file `functions.cpp` to store all the functions that could be called from the program.
+    - Use a file `main.cpp` to store the main program to be execute.
+    - Use a text `default.txt` to store the default information that the program need.
     
 **Compilation and execution instructions:**<br>
 Input make to compile,
