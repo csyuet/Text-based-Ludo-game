@@ -9,7 +9,7 @@ Ludo is a strategy board game that is played by four player, where players need 
 * There will be a board with route formed by boxes, players need to move their chess through the route and reach their perspective finish box.
 * Each player will have a chance to roll the random dice each round.
 
-## Rule
+## Rules
 * Players can move their chess according to the number rolled from the dice.
 * If the number is even number then the player can choose to move his chess to the ready position.
 * If the number rolled is 6, then the player can roll the dice again. 
@@ -19,7 +19,7 @@ Ludo is a strategy board game that is played by four player, where players need 
 * The first one with all his chess reached the finish box will be the winner and end the game.
 * To reach the finish box, the chess will have to go around the board for once and enter the finish path in the middle of the board. After entering the finish path, the player need to roll the exact number to reach the finish box or else the chess will rebounce.
 
-**Implementatio plan and coding element**
+**Implementation plan and coding elements**
 * Generation of random game sets or events
     - Generate random number (1-6) when user roll a dice using time.h in `srand`.
     - Generate number of time (1-3 seconds) for the loading and saving bar as animations.
