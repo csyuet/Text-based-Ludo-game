@@ -1,5 +1,5 @@
-# Text-based-Ludo-game
-This game project is a console application that can be accessed using the Linux terminal and via SSH. 
+# Text-based-Ludo-game in C++
+This game project is a console application that can be accessed using the Linux terminal and via SSH.
 
 ## Introduction
 Ludo is a strategy board game that is played by four player, where players need to figure out how to beat other players by strategy and race their chess from start to finish according to the rolls of dice. In this program, we assume the game is played by four players.
@@ -36,7 +36,7 @@ Ludo is a strategy board game that is played by four player, where players need 
     - Use of vector
         - Using pushback, new, delete to change the array size.
     - Use of map
-        - Using the counter
+        - Using as the counter
 * File input/output (e.g., for loading/saving game status)
     - There will be a default text file that store the stage, chess id, position number, so that everytime the player start a new game, the cheeses will be located in the initial position.
     - If the player choose to save and quit in the middle of the game, the player can name the file to output and store information like the stage, chess id, position and current player in the text file, so that if the player want to resume the previous game they can input the file and continue to play with the same player.
