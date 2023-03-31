@@ -19,17 +19,17 @@ Ludo is a strategy board game that is played by four player, where players need 
 * The first one with all his chess reached the finish box will be the winner and end the game.
 * To reach the finish box, the chess will have to go around the board for once and enter the finish path in the middle of the board. After entering the finish path, the player need to roll the exact number to reach the finish box or else the chess will rebounce.
 
-**Implementation plan and coding elements**
+## Implementation plan and coding elements
 * Generation of random game sets or events
     - Generate random number (1-6) when user roll a dice using time.h in `srand`.
     - Generate number of time (1-3 seconds) for the loading and saving bar as animations.
 * Data structures `struct` used for storing game status
     - **Chess**
-        - ID(the id of each chess)
-        - Stage(The stage of chess: "BASE", "ROAD", "PEND", "LAST", "GOAL")
-        - Pos(The position of the chess)
+        - `int` (the id of each chess)
+        - `string` (The stage of chess: "BASE", "ROAD", "PEND", "LAST", "GOAL")
+        - `int` (The position of the chess)
     - **Player**
-        - `Icon` (The chess symbol of the player)
+        - Unicode characters (The chess symbol of the player)
         - `Vector<CHESS>chess`(vector to store the four chesses)
         - `Map<string,int>` counters (to count the number of chess pieces in specific stage)
 * Dynamic memory management
@@ -47,11 +47,5 @@ Ludo is a strategy board game that is played by four player, where players need 
     - Use a text `default.txt` to store the default information that the program need.
     
 **Compilation and execution instructions:**<br>
-Input make to compile,
-```
-make
-```
-to execute the game,
-```
-./main
-```
+- Input `make && ./main` to compile and execute the game.
+- Input `./main` to execute the game if you have already compiled it.
