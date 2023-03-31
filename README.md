@@ -3,6 +3,14 @@ This game project is a console application that can be accessed using the Linux 
 
 ## Introduction
 Ludo is a strategy board game that is played by four player, where players need to figure out how to beat other players by strategy and race their chess from start to finish according to the rolls of dice. In this program, we assume the game is played by four players.
+|Menu|Instructions|
+|-|-|
+|<img width="361" alt="Screenshot 2023-03-31 at 5 37 40 PM" src="https://user-images.githubusercontent.com/99870855/229084647-8c1aeb13-9e55-420a-a505-bc8fcfcd00ee.png">|<img width="659" alt="Screenshot 2023-03-31 at 5 28 27 PM" src="https://user-images.githubusercontent.com/99870855/229084411-cb6b72a7-c674-44f7-87e1-b6a872175b39.png">|
+
+|Gameplay|Score Board|
+|-|-|
+|<img width="482" alt="Screenshot 2023-03-31 at 5 28 18 PM" src="https://user-images.githubusercontent.com/99870855/229083618-34a474bc-fcbf-40d8-8813-c192801ca296.png">|<img width="657" alt="Screenshot 2023-03-31 at 5 27 53 PM" src="https://user-images.githubusercontent.com/99870855/229084069-2992e6f9-a2d2-4e82-bcad-3e6408043101.png">|
+
 
 **Description** 
 * There will be four players, each will be given four chesses.
